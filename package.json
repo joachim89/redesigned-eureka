@@ -1,0 +1,25 @@
+{
+  "name": "heroku-express-server-test",
+  "version": "1.0.0",
+  "description": "tester å lage en server og sånn",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test kommando 123 yo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joachim89/redesigned-eureka.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Joachim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joachim89/redesigned-eureka/issues"
+  },
+  "homepage": "https://github.com/joachim89/redesigned-eureka#readme"
+}
