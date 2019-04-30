@@ -9,6 +9,13 @@
 
 
 var express = require(‘express’);
+const favicon = require('express-favicon');
+ 
+const app = express();
+ 
+app.use(favicon(__dirname + '/favicon.png'));
+
+
 var port = process.env.PORT || 3000;
 var app = express();
 app.get(‘/’, function (req, res) {
